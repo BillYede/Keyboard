@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 </body>
-</html>
+</html itemscope itemtype="http://schema.org/WebPage">
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -10,11 +10,11 @@
 </head>
 <body>
 
-  <header>
-    <h1>Clavier Virtuel</h1>
+  <header itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader">
+    <h1 itemprop="name">Clavier Virtuel</h1>
   </header>
 
-  <main class="keyboad-container">
+  <main class="keyboad-container" role="main" itemscope itemprop="mainContentOfPage">
     <div class="keyboad-container__row">
       <kbd class="keyboad-container__key">1<sub>&</sub></kbd>
       <kbd class="keyboad-container__key">2<sub>é</sub></kbd>
@@ -64,8 +64,8 @@
       <kbd class="keyboad-container__key">n</kbd>
     </div>
   </main>
-  <footer>
-    <kbd>&nbsp;</kbd>
+  <footer class="keyboad-container__row--five" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
+    <kbd class="keyboad-container__key">&nbsp;</kbd>
   </footer>
 </body>
 </html>
