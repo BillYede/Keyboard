@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url(Gilroy.otf);
+}
+
+.keyboad-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.keyboad-container__row {
+  padding: 1rem;
+}
+
+.keyboad-container__row--three {
+  padding: 1rem;
+}
+
+kbd {
+  font-family: 'gilroy';
+  border-radius: 3px;
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73,
+               2px 2px 5px rgba(94,104,121,0.288);
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              -3px -3px 7px rgba(255,255,255,0.05);
+  margin: 0.5rem;
+  height: 60px;
+  width: 60px;
+  font-size: 2rem;
+  text-align: center;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
