@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="keyboard.css" rel="stylesheet">
+  <link href="keyboard-light.css" rel="stylesheet">
+  
   <title>Clavier Virtuel</title>
 </head>
 <body>
@@ -12,19 +14,19 @@
     <h1 itemprop="name">Clavier Virtuel</h1>
   </header>
 
-  <main class="keyboad-container" role="main" itemscope itemprop="mainContentOfPage">
+  <main id="darkModeSwitch" role="main" itemscope itemprop="mainContentOfPage">
     <div class="keyboad-container__row">
-      <kbd class="keyboad-container__key">1<sub>&</sub></kbd>
-      <kbd class="keyboad-container__key">2<sub>é</sub></kbd>
-      <kbd class="keyboad-container__key">3<sub>"</sub></kbd>
-      <kbd class="keyboad-container__key">4<sub>'</sub></kbd>
-      <kbd class="keyboad-container__key">5<sub>(</sub></kbd>
-      <kbd class="keyboad-container__key">6<sub>§</sub></kbd>
-      <kbd class="keyboad-container__key">7<sub>è</sub></kbd>
-      <kbd class="keyboad-container__key">8<sub>!</sub></kbd>
-      <kbd class="keyboad-container__key">9<sub>ç</sub></kbd>
-      <kbd class="keyboad-container__key">0<sub>à</sub></kbd>
-      <input type="button" value="supprimer" name="supprimer">
+      <kbd class="keyboad-container__key">1</kbd>
+      <kbd class="keyboad-container__key">2</kbd>
+      <kbd class="keyboad-container__key">3</kbd>
+      <kbd class="keyboad-container__key">4</kbd>
+      <kbd class="keyboad-container__key">5</kbd>
+      <kbd class="keyboad-container__key">6</kbd>
+      <kbd class="keyboad-container__key">7</kbd>
+      <kbd class="keyboad-container__key">8</kbd>
+      <kbd class="keyboad-container__key">9</kbd>
+      <kbd class="keyboad-container__key">0</kbd>
+      <kbd class="keyboad-container__key">supprimer</kbd>
     </div>
     <div class="keyboad-container__row--two">
       <kbd class="keyboad-container__key">a</kbd>
@@ -39,7 +41,7 @@
       <kbd class="keyboad-container__key">p</kbd>
     </div>
     <div class="keyboad-container__row--three">
-      <kbd class="keyboad-container__key">Maj</kbd>
+      <kbd class="keyboad-container__key">Maj<span class="dot"></span></kbd>
       <kbd class="keyboad-container__key">q</kbd>
       <kbd class="keyboad-container__key">s</kbd>
       <kbd class="keyboad-container__key">d</kbd>
@@ -50,10 +52,10 @@
       <kbd class="keyboad-container__key">k</kbd>
       <kbd class="keyboad-container__key">l</kbd>
       <kbd class="keyboad-container__key">m</kbd>
-      <input type="button" value="Entrer" name="Entrer">
+      <kbd class="keyboad-container__key">Entrer</kbd>
     </div>
     <div class="keyboad-container__row--four">
-      <input type="button" value="Night-Mode" name="Night-Mode">
+      <kbd class="keyboad-container__key">M.N</kbd>
       <kbd class="keyboad-container__key">w</kbd>
       <kbd class="keyboad-container__key">x</kbd>
       <kbd class="keyboad-container__key">c</kbd>
@@ -63,7 +65,7 @@
     </div>
   </main>
   <footer class="keyboad-container__row--five" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
-    <kbd class="keyboad-container__key">&nbsp;</kbd>
+    <kbd class="keyboad-container__key--footer">&nbsp;</kbd>
   </footer>
 </body>
 </html>

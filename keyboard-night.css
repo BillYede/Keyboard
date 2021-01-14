@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+kbd {
+  font-family: 'gilroy';
+  border-radius: 3px;
+  font-size: 2rem;
+  box-shadow: -3px -3px 7px #ffffff73,
+               2px 2px 5px rgba(94,104,121,0.288);
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              -3px -3px 7px rgba(255,255,255,0.05)
+  }
+
+.keyboad-container__key--night {
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73,
+               2px 2px 5px rgba(94,104,121,0.288);
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              -3px -3px 7px rgba(255,255,255,0.05);
+}
+
+input {
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73,
+               2px 2px 5px rgba(94,104,121,0.288);
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
+              -3px -3px 7px rgba(255,255,255,0.05);
+}
+
+.keyboad-container__row--five {
+  display: flex;
+  justify-content: center;
+}
+
+.keyboad-container__key--footer {
+  width: 400px;
+}
