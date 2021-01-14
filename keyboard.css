@@ -3,26 +3,7 @@
   src: url(Gilroy.otf);
 }
 
-.keyboard-container {
-  max-width: 100%;
-}
-
-.keyboad-container__row {
-  display: flex;
-  justify-content: center;
-}
-
-.keyboad-container__row--two {
-  display: flex;
-  justify-content: center;
-}
-
-.keyboad-container__row--four {
-  display: flex;
-  justify-content: center;
-}
-
-.keyboad-container__row--three {
+[class^="keyboad-container__row"] {
   display: flex;
   justify-content: center;
 }

@@ -30,7 +30,7 @@ input {
               -3px -3px 7px rgba(255,255,255,0.05);
 }
 
-.keyboad-container__row--five {
+[class^="keyboad-container__row"] {
   display: flex;
   justify-content: center;
 }
