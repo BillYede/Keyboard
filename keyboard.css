@@ -3,15 +3,19 @@
   src: url(Gilroy.otf);
 }
 
-[class^="keyboad-container__row"] {
-  display: flex;
-  justify-content: center;
+.keyboard-container {
+  max-width: 100%;
 }
 
-kbd {
+.keyboad-container__key {
   margin: 0.5rem;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+[class^="keyboad-container__row"] {
+  display: flex;
+  justify-content: center;
 }
 
 .keyboad-container__row--five {

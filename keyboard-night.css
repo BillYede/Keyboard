@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-kbd {
+.keyboad-container__key {
   font-family: 'gilroy';
   border-radius: 3px;
   font-size: 2rem;
@@ -28,11 +28,6 @@ input {
 
   box-shadow: 2px 2px 5px rgba(0,0,0,0.5),
               -3px -3px 7px rgba(255,255,255,0.05);
-}
-
-[class^="keyboad-container__row"] {
-  display: flex;
-  justify-content: center;
 }
 
 .keyboad-container__key--footer {
